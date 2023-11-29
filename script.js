@@ -39,7 +39,6 @@ const game = {
         team2: 6.5,
     }, };
     
-    
 
 
 
@@ -52,7 +51,6 @@ const game = {
 
 
 
-    
 
 const[team1,team2]= game.players
 console.log(team1,team2)
@@ -68,3 +66,8 @@ console.log(finalPlayers)
 
 let{ team1:team1win , x:draw , team2:team2win}=game.odds
 console.log(team1win,draw,team2win)
+
+
+
+team1win<team2win && console.log('Birinci')
+team1win>team2win && console.log('Ikinci')
